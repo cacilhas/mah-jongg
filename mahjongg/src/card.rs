@@ -35,7 +35,12 @@ impl Card {
 
 	#[func]
 	fn shuffle_facet(&mut self) {
-		self.facet_index = randi_range(0, self.facets.len() as i64 - 1);
+		self.facet_index = randi_range(0, self.len() - 1);
 		self.update_facet();
+	}
+
+	#[func]
+	fn len(&self) -> i64 {
+		self.facets.len() as i64
 	}
 }
