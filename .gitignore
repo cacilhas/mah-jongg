@@ -1,0 +1,9 @@
+.*
+*~
+*.bak
+Cargo.lock
+target/
+
+!.editorconfig
+!/.gitattributes
+!/.gitignore
