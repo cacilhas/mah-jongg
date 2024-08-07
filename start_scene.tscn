@@ -5,6 +5,7 @@
 [ext_resource type="FontFile" uid="uid://bkhsvkm8eis0q" path="res://assets/regular.ttf" id="3_uddnw"]
 
 [node name="StartScene" type="StartScene"]
+next_scene = null
 custom_minimum_size = Vector2(1280, 720)
 
 [node name="Background" type="ColorRect" parent="."]

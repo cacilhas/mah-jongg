@@ -5,17 +5,18 @@ use godot::prelude::*;
 #[class(init, base=Control)]
 pub(crate) struct StartScene {
 	base: Base<Control>,
+	#[export]
+	next_scene: Gd<PackedScene>,
 }
 
 #[godot_api]
 impl IControl for StartScene {
 	fn unhandled_input(&mut self, event: Gd<InputEvent>) {
 		if event.is_action_pressed("exit".into()) {
-			if let Some(mut tree) = self.base_mut().get_tree() {
-				tree.quit();
-			} else {
-				godot_error!("could not retrieve tree");
-			}
+			self.base_mut()
+				.get_tree()
+				.expect("could not retrieve tree")
+				.quit();
 		}
 	}
 }
@@ -24,6 +25,10 @@ impl IControl for StartScene {
 impl StartScene {
 	#[func]
 	fn on_start_pressed(&mut self) {
-		// TODO: change scene
+		let next_scene = self.next_scene.clone();
+		self.base_mut()
+			.get_tree()
+			.expect("could not retrieve tree")
+			.change_scene_to_packed(next_scene);
 	}
 }
