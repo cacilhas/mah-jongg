@@ -1,8 +1,5 @@
 #[macro_use] mod macros;
-
-mod card;
-mod cards_container;
-mod start_scene;
+mod scenes;
 
 use godot::global::randomize;
 use godot::prelude::*;
