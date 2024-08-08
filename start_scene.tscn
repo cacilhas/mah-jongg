@@ -1,11 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://bcxqw2p7ut1v4"]
+[gd_scene load_steps=5 format=3 uid="uid://bcxqw2p7ut1v4"]
 
+[ext_resource type="PackedScene" uid="uid://cr63ku0btt0t6" path="res://classic.tscn" id="1_1qm58"]
 [ext_resource type="FontFile" uid="uid://c7opxfs1oshe0" path="res://assets/title.ttf" id="1_sr8me"]
 [ext_resource type="PackedScene" uid="uid://b5m0f4d6g0gm" path="res://card.tscn" id="2_3kwu0"]
 [ext_resource type="FontFile" uid="uid://bkhsvkm8eis0q" path="res://assets/regular.ttf" id="3_uddnw"]
 
 [node name="StartScene" type="StartScene"]
-next_scene = null
+next_scene = ExtResource("1_1qm58")
 custom_minimum_size = Vector2(1280, 720)
 
 [node name="Background" type="ColorRect" parent="."]
