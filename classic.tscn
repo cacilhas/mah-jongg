@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cr63ku0btt0t6"]
 
-[node name="Classic" type="Node2D"]
+[node name="Classic" type="Classic"]
 
 [node name="Background" type="ColorRect" parent="."]
 offset_right = 1280.0
