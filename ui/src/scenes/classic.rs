@@ -8,6 +8,7 @@ use super::card::Card;
 #[class(init, base=Node2D)]
 pub(crate) struct Classic {
 	base: Base<Node2D>,
+	cards: Option<Gd<Node2D>>,
 }
 
 #[godot_api]
@@ -26,6 +27,8 @@ impl INode2D for Classic {
 			}
             card.call("set_facet_index".into(), &[jdx]);
         }
+
+		self.cards = Some(cards_wrapper);
     }
 
 	fn unhandled_input(&mut self, event: Gd<InputEvent>) {
