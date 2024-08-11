@@ -44,14 +44,16 @@
 [ext_resource type="Texture2D" uid="uid://qwqyinvunpv6" path="res://assets/wind-w.svg" id="42_beyio"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kw0q4"]
-size = Vector2(48, 64)
+size = Vector2(40, 52)
 
 [node name="Card" type="Card"]
 facets = Array[Texture2D]([ExtResource("1_siqjt"), ExtResource("2_qmdq6"), ExtResource("3_y1a2p"), ExtResource("4_ycuqw"), ExtResource("5_iipch"), ExtResource("6_mukn2"), ExtResource("7_04frm"), ExtResource("8_t8hrt"), ExtResource("9_47rrd"), ExtResource("10_7pp2m"), ExtResource("11_1mi2e"), ExtResource("12_3mrys"), ExtResource("13_a8prh"), ExtResource("14_q3r1d"), ExtResource("15_6vxj8"), ExtResource("16_5fusc"), ExtResource("17_7jd2u"), ExtResource("18_wtg8u"), ExtResource("19_41i3q"), ExtResource("20_gv3rj"), ExtResource("21_nftv3"), ExtResource("22_hautu"), ExtResource("23_nyfew"), ExtResource("24_aaqcw"), ExtResource("25_x0rk0"), ExtResource("26_sdvx7"), ExtResource("27_m0gxj"), ExtResource("28_eqtxf"), ExtResource("1_t5vro"), ExtResource("30_xcinb"), ExtResource("31_l746l"), ExtResource("32_x63sq"), ExtResource("33_gu2pe"), ExtResource("34_qf67f"), ExtResource("35_oequn"), ExtResource("36_m5rpt"), ExtResource("37_ecg7v"), ExtResource("38_36iji"), ExtResource("39_ybbu0"), ExtResource("40_oshsn"), ExtResource("41_wrl7w"), ExtResource("42_beyio")])
 
 [node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(4.25, -6.125)
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_t5vro")
 
 [node name="CollisionShape" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, -0.125)
 shape = SubResource("RectangleShape2D_kw0q4")

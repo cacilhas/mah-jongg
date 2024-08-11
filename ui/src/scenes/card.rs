@@ -6,11 +6,10 @@ use godot::prelude::*;
 #[class(init, base=Area2D)]
 pub(crate) struct Card {
 	base: Base<Area2D>,
-	#[var]
+	sprite: Option<Gd<Sprite2D>>,
 	facet_index: i64,
 	#[export]
 	facets: Array<Gd<Texture2D>>,
-	sprite: Option<Gd<Sprite2D>>,
 }
 
 impl Card {
@@ -42,5 +41,16 @@ impl Card {
 	#[func]
 	fn len(&self) -> i64 {
 		self.facets.len() as i64
+	}
+
+	#[func]
+	fn set_facet_index(&mut self, facet_index: i64) {
+		self.facet_index = facet_index;
+		self.update_facet();
+	}
+
+	#[func]
+	fn get_face_index(&self) -> i64 {
+		self.facet_index
 	}
 }

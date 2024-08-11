@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://cr63ku0btt0t6"]
+[gd_scene load_steps=2 format=3 uid="uid://cr63ku0btt0t6"]
+
+[ext_resource type="PackedScene" uid="uid://b5m0f4d6g0gm" path="res://card.tscn" id="1_fdwqk"]
 
 [node name="Classic" type="Classic"]
 
@@ -6,3 +8,494 @@
 offset_right = 1280.0
 offset_bottom = 720.0
 color = Color(0.184314, 0.368627, 0.27451, 1)
+
+[node name="Cards" type="Node2D" parent="."]
+
+[node name="Card1" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(420, 542)
+
+[node name="Card2" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 542)
+
+[node name="Card3" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 542)
+
+[node name="Card4" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 542)
+
+[node name="Card5" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 542)
+
+[node name="Card6" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 542)
+
+[node name="Card7" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 542)
+
+[node name="Card8" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 542)
+
+[node name="Card9" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 542)
+
+[node name="Card10" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 542)
+
+[node name="Card11" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 542)
+
+[node name="Card12" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(860, 542)
+
+[node name="Card13" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 490)
+
+[node name="Card14" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 490)
+
+[node name="Card15" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 490)
+
+[node name="Card16" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 490)
+
+[node name="Card17" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 490)
+
+[node name="Card18" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 490)
+
+[node name="Card19" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 490)
+
+[node name="Card20" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 490)
+
+[node name="Card21" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 438)
+
+[node name="Card22" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 438)
+
+[node name="Card23" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 438)
+
+[node name="Card24" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 438)
+
+[node name="Card25" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 438)
+
+[node name="Card26" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 438)
+
+[node name="Card27" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 438)
+
+[node name="Card28" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 438)
+
+[node name="Card29" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 438)
+
+[node name="Card30" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 438)
+
+[node name="Card43" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(380, 360)
+
+[node name="Card31" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(420, 386)
+
+[node name="Card32" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 386)
+
+[node name="Card33" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 386)
+
+[node name="Card34" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 386)
+
+[node name="Card35" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 386)
+
+[node name="Card36" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 386)
+
+[node name="Card37" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 386)
+
+[node name="Card38" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 386)
+
+[node name="Card39" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 386)
+
+[node name="Card40" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 386)
+
+[node name="Card41" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 386)
+
+[node name="Card42" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(860, 386)
+
+[node name="Card44" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(420, 334)
+
+[node name="Card45" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 334)
+
+[node name="Card46" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 334)
+
+[node name="Card47" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 334)
+
+[node name="Card48" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 334)
+
+[node name="Card49" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 334)
+
+[node name="Card50" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 334)
+
+[node name="Card51" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 334)
+
+[node name="Card52" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 334)
+
+[node name="Card53" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 334)
+
+[node name="Card54" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 334)
+
+[node name="Card58" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 282)
+
+[node name="Card59" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 282)
+
+[node name="Card60" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 282)
+
+[node name="Card61" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 282)
+
+[node name="Card62" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 282)
+
+[node name="Card63" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 282)
+
+[node name="Card64" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 282)
+
+[node name="Card65" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 282)
+
+[node name="Card66" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 282)
+
+[node name="Card68" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 230)
+
+[node name="Card69" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 230)
+
+[node name="Card70" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 230)
+
+[node name="Card71" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 230)
+
+[node name="Card72" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 230)
+
+[node name="Card73" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 230)
+
+[node name="Card74" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 230)
+
+[node name="Card75" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 230)
+
+[node name="Card76" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(420, 178)
+
+[node name="Card77" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(460, 178)
+
+[node name="Card78" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(500, 178)
+
+[node name="Card79" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(540, 178)
+
+[node name="Card80" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(580, 178)
+
+[node name="Card81" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(620, 178)
+
+[node name="Card82" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(660, 178)
+
+[node name="Card83" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(700, 178)
+
+[node name="Card84" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(740, 178)
+
+[node name="Card85" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(780, 178)
+
+[node name="Card86" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 178)
+
+[node name="Card87" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(860, 178)
+
+[node name="Card67" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(820, 282)
+
+[node name="Card55" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(860, 334)
+
+[node name="Card56" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(900, 360)
+
+[node name="Card57" parent="Cards" instance=ExtResource("1_fdwqk")]
+position = Vector2(940, 360)
+
+[node name="Card88" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 500)
+
+[node name="Card89" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 500)
+
+[node name="Card90" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 500)
+
+[node name="Card91" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 500)
+
+[node name="Card92" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 500)
+
+[node name="Card93" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 500)
+
+[node name="Card94" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 448)
+
+[node name="Card95" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 448)
+
+[node name="Card96" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 448)
+
+[node name="Card97" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 448)
+
+[node name="Card98" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 448)
+
+[node name="Card99" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 448)
+
+[node name="Card100" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 396)
+
+[node name="Card101" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 396)
+
+[node name="Card102" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 396)
+
+[node name="Card103" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 396)
+
+[node name="Card104" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 396)
+
+[node name="Card105" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 396)
+
+[node name="Card106" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 344)
+
+[node name="Card107" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 344)
+
+[node name="Card108" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 344)
+
+[node name="Card109" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 344)
+
+[node name="Card110" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 344)
+
+[node name="Card111" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 344)
+
+[node name="Card112" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 292)
+
+[node name="Card113" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 292)
+
+[node name="Card114" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 292)
+
+[node name="Card115" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 292)
+
+[node name="Card116" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 292)
+
+[node name="Card124" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(560, 458)
+
+[node name="Card125" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(600, 458)
+
+[node name="Card126" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(640, 458)
+
+[node name="Card127" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(680, 458)
+
+[node name="Card128" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(560, 406)
+
+[node name="Card129" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(600, 406)
+
+[node name="Card130" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(640, 406)
+
+[node name="Card131" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(680, 406)
+
+[node name="Card132" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(560, 354)
+
+[node name="Card133" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(600, 354)
+
+[node name="Card134" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(640, 354)
+
+[node name="Card140" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 3
+position = Vector2(590, 416)
+
+[node name="Card141" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 3
+position = Vector2(630, 416)
+
+[node name="Card142" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 3
+position = Vector2(590, 364)
+
+[node name="Card143" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 3
+position = Vector2(630, 364)
+
+[node name="Card135" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(680, 354)
+
+[node name="Card136" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(560, 302)
+
+[node name="Card137" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(600, 302)
+
+[node name="Card138" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(640, 302)
+
+[node name="Card139" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 2
+position = Vector2(680, 302)
+
+[node name="Card117" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 292)
+
+[node name="Card118" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(530, 240)
+
+[node name="Card119" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(570, 240)
+
+[node name="Card120" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(610, 240)
+
+[node name="Card121" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(650, 240)
+
+[node name="Card122" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(690, 240)
+
+[node name="Card123" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 1
+position = Vector2(730, 240)
+
+[node name="Card144" parent="Cards" instance=ExtResource("1_fdwqk")]
+z_index = 4
+position = Vector2(600, 400)
