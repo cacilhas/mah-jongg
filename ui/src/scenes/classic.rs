@@ -18,11 +18,9 @@ impl INode2D for Classic {
 
         for card in cards_wrapper.get_children().iter_shared() {
             let mut card: Gd<Card> = card.try_cast().expect("expected card, got node");
-			godot_print!("length: {}", counter.len());
             let idx = randi_range(0, counter.len() as i64 - 1) as usize;
 			let current = &mut counter[idx];
 			let jdx = Variant::from(current.idx as i64);
-			godot_print!("chosen: {:?}", jdx);
 			if current.incr_is_last() {
 				counter.remove(idx);
 			}
